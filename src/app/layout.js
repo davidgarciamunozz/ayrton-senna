@@ -10,14 +10,14 @@ export const metadata = {
     card: "summary_large_image",
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
-    images: ['../public/opengraph-image.png'], // Nueva ubicación pública
+    images: ['https://github.com/davidgarciamunozz/ayrton-senna/blob/main/public/opengraph-image.png?raw=true'], // Nueva ubicación pública
   },
   openGraph: {
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
     images: [
       {
-        url: '../public/opengraph-image.png',
+        url: 'https://github.com/davidgarciamunozz/ayrton-senna/blob/main/public/opengraph-image.png?raw=true',
         width: 1200,
         height: 630,
         alt: 'Ayrton Senna Tribute',
