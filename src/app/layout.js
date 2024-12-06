@@ -10,22 +10,23 @@ export const metadata = {
     card: "summary_large_image",
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
-    images: ['../public/opengraph-image.png'], // Asegúrate de que la ruta sea correcta
+    images: ['/opengraph-image.png'], // Nueva ubicación pública
   },
   openGraph: {
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
     images: [
       {
-        url: '../public/opengraph-image.png', // Ruta de la imagen
-        width: 1200, // Opcional
-        height: 630, // Opcional
-        alt: 'Ayrton Senna Tribute', // Descripción de la imagen
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Ayrton Senna Tribute',
       },
     ],
     type: 'website',
   },
 }
+
 
 export default function RootLayout({ children }) {
   return (
