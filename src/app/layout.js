@@ -10,14 +10,14 @@ export const metadata = {
     card: "summary_large_image",
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
-    images: ['https://matraxlubricantes.com/wp-content/uploads/2020/03/6.jpg'], // Nueva ubicación pública
+    images: ['../public/opengraph-image.png'], // Nueva ubicación pública
   },
   openGraph: {
     title: 'Senna Tribute',
     description: 'A tribute to the legendary Brazilian Formula 1 driver Ayrton Senna.',
     images: [
       {
-        url: 'https://matraxlubricantes.com/wp-content/uploads/2020/03/6.jpg',
+        url: '../public/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'Ayrton Senna Tribute',
