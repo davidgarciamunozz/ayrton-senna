@@ -31,18 +31,17 @@ export const metadata = {
     ],
     type: "website",
   },
+  verification:{
+    google: "1EcfcCYaPqu4xAGN-JLRKMFpGYprOxd-ZGBJCnswgQQ"
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta
-          name="google-site-verification"
-          content="1EcfcCYaPqu4xAGN-JLRKMFpGYprOxd-ZGBJCnswgQQ"
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Tu Nombre o Empresa" />
+        <meta name="author" content="David García" />
         <meta
           name="keywords"
           content="Ayrton Senna, Formula 1, Tribute, Brazilian Driver"
